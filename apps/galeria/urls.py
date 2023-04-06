@@ -8,7 +8,7 @@ urlpatterns = [
     path('nova-imagem', nova_imagem, name='nova_imagem'),
     path('editar-imagem/<int:foto_id>', editar_imagem, name='editar-imagem'),  
     path('deletar-imagem/<int:foto_id>', deletar_imagem, name='deletar-imagem'),
-    path('/<str:categoria>', filtro, name='filtro'),  
+    path('filtro/<str:categoria>', filtro, name='filtro'),  
 
 ]
 
