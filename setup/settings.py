@@ -40,8 +40,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+<<<<<<< HEAD
     'apps.galeria.apps.GaleriaConfig',
     'apps.usuarios.apps.UsuariosConfig',    
+=======
+    'galeria',
+    'usuarios',    
+>>>>>>> eeed2b1fd6b00d05addfdcb2567310c87f3575bb
 ]
 
 MIDDLEWARE = [
@@ -59,7 +64,11 @@ ROOT_URLCONF = 'setup.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
+<<<<<<< HEAD
         'DIRS': [BASE_DIR / 'setup/templates'],
+=======
+        'DIRS': [BASE_DIR / 'templates'],
+>>>>>>> eeed2b1fd6b00d05addfdcb2567310c87f3575bb
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
